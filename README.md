@@ -1,6 +1,6 @@
 # Our iOS Best Practices
 
-Our iOS team's iOS Best Practices. We copy [Futurice][futurice]'s document to create this document (2018, 3 September, 15:47 dated). From first commit date we have commons and differences.
+Our iOS team's Best Practices. We copy [Futurice][futurice]'s document to create this document (2018, 3 September, 15:47 dated). From first commit date we have commons and differences.
 
 [futurice]: https://github.com/futurice/ios-good-practices
 
