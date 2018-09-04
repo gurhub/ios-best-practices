@@ -103,6 +103,20 @@ Note that from now on, you'll need to open the `.xcworkspace` file instead of `.
 
 will update all pods to the newest versions permitted by the Podfile. You can use a wealth of [operators][cocoapods-pod-syntax] to specify your exact version requirements.
 
+For some cases, you need to re-install all your pod libraries from scratch. For this, first close your XCode and then you need to use the deintegrate command parameter with steps giving line below:
+
+	pod deintegrate
+
+then remove your Podfile.lock file:
+
+	rm -rf Podfile.lock
+
+then re-install the pods with:
+
+	pod install
+
+you're ready to go.
+
 [cocoapods]: https://cocoapods.org/
 [cocoapods-pod-syntax]: http://guides.cocoapods.org/syntax/podfile.html#pod
 [committing-pods]: https://www.dzombak.com/blog/2014/03/including-pods-in-source-control.html
