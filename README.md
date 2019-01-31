@@ -395,7 +395,7 @@ Xcode automatically tries to optimise resources living in asset catalogs (yet an
 
 ## Coding Style
 
-Please use [Digiturk - beIN Media Group Objective-C Style Guide][objective-c-style-guide] only.
+Please use [Objective-C Style Guide][objective-c-style-guide] only.
 
 [objective-c-style-guide]: https://github.com/gurhub/objective-c-style-guide
 
